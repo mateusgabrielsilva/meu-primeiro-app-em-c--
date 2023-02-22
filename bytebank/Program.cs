@@ -51,23 +51,25 @@ using bytebank.Titular;
 
 ////////////////////////////////////////////////////
 
-Cliente cliente = new Cliente();
-cliente.nome = "André Silva";
-cliente.cpf = "123456789";
-cliente.profissao = "Desenvolvedor";
+//Cliente cliente = new Cliente();
+//cliente.nome = "André Silva";
+//cliente.cpf = "123456789";
+//cliente.profissao = "Desenvolvedor";
 
-ContaCorrente conta = new ContaCorrente();
-conta.titular = cliente;
-conta.conta = "1010-X";
-conta.numero_agencia = 15;
-conta.saldo = 150;
+//ContaCorrente conta = new ContaCorrente();
+//conta.titular = cliente;
+//conta.conta = "1010-X";
+//conta.numero_agencia = 15;
+//conta.saldo = 150;
 
-Console.WriteLine("Titular = " + conta.titular.nome);
-Console.WriteLine("Cpf = " + conta.titular.cpf);
-Console.WriteLine("Profissão = " + conta.titular.profissao);
-Console.WriteLine("N° Conta = " + conta.conta);
-Console.WriteLine("Agencia = " + conta.numero_agencia);
-Console.WriteLine("Saldo = " + conta.saldo);
+//Console.WriteLine("Titular = " + conta.titular.nome);
+//Console.WriteLine("Cpf = " + conta.titular.cpf);
+//Console.WriteLine("Profissão = " + conta.titular.profissao);
+//Console.WriteLine("N° Conta = " + conta.conta);
+//Console.WriteLine("Agencia = " + conta.numero_agencia);
+//Console.WriteLine("Saldo = " + conta.saldo);
+
+////////////////////////////////////////////////////
 
 
 
